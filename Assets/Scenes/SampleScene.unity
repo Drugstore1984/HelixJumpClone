@@ -7188,21 +7188,18 @@ MonoBehaviour:
     volume: 0.5
     pitch: 1
     loop: 1
-    playOnAwake: 1
     source: {fileID: 0}
   - name: Bounce
     clip: {fileID: 8300000, guid: 3036d0f52df804a4f872d6e7fcbb153b, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    playOnAwake: 0
     source: {fileID: 0}
   - name: Break
     clip: {fileID: 8300000, guid: 012034612d41e2549a9d923105ee4468, type: 3}
     volume: 1
     pitch: 1
     loop: 0
-    playOnAwake: 0
     source: {fileID: 0}
   _musicOutput: {fileID: 24300002, guid: 0b8d6b7632de5ae4980e7b67d99c8a8c, type: 2}
 --- !u!4 &2110922038

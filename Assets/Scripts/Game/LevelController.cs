@@ -12,9 +12,7 @@ public class LevelController : MonoBehaviour
     {
         _saveLoadSystem = GetComponent<SaveLoadSystem>();
         _currentLevel = _saveLoadSystem.GetLevelIndex();
-        Debug.Log(_currentLevel);
         _currentLevel %= _levelsList.levels.Length;
-        Debug.Log(_currentLevel);
         Instantiate(_levelsList.levels[_currentLevel]);
     }
     public void LoadNextLevel()
